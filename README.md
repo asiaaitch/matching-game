@@ -2,7 +2,7 @@
 
 Your child will love finding their favorite Nick Jr. characters, as they improve thier memory and concentration skills. Matching games also promote cognitive development and social interaction which boost your child's confidence and enjoyment of learning.
 
-**Link to project:** https://matching-game.netlify.app/
+**Link to project:** https://nickjr-matching-game.netlify.app/
 
 ## Screenshots:
 Start Page
