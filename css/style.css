@@ -1,0 +1,289 @@
+/* @import url(fontawesome-all.min.css); */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Lora:200,300,400,500,600,700");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    text-align: center;
+}
+body {
+  /* background-image: url('../img/background.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 13pt;
+  font-weight: 400;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  padding: 0 25%;
+}
+
+section {
+  margin: 0;
+  width: 25%;
+  height: 250px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+div + a img {
+  position: fixed;
+  right: 25px;
+  top: 48%;
+  width: 20%;
+  padding: 20px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  /* background-image: linear-gradient(to right, blue , red ); */
+}
+
+aside p {
+  position: fixed;
+  left: 25px;
+  top: 5%;
+  width: 20%;
+  padding: 20px;
+  border: 2px solid white;
+  background-color: rgb(32, 75, 177);
+  border-radius: 100px;
+  /* background-image: linear-gradient(to right, blue , red ); */
+}
+
+/* img #nickjr {
+  top: 60%;
+} */
+
+button {
+  display: none;
+}
+.card0, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10,
+.card11, .card12, .card13, .card14, 
+
+/* .card15, .card16, .card17, .card18, .card19, .card20,
+.card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30,
+.card31, .card32, .card33, .card34, .card35, .card36, .card37, .card38, .card39, .card40,  */
+
+.flip {
+background-size: 150px;
+background-repeat: no-repeat;
+transform-style: preserve-3d;
+  transition: all .4s linear;
+}
+
+.card0 {
+  background-image: url('../img/card0.jpg');
+}
+
+.card1 {
+  background-image: url('../img/card1.jpg');
+}
+
+.card2 {
+  background-image: url('../img/card2.jpg');
+}
+
+.card3 {
+  background-image: url('../img/card3.jpg');
+}
+
+.card4 {
+  background-image: url('../img/card4.jpg');
+}
+
+.card5 {
+  background-image: url('../img/card5.jpg');
+}
+
+.card6 {
+  background-image: url('../img/card6.jpg');
+}
+
+.card7 {
+  background-image: url('../img/card7.jpg');
+}
+
+.card8 {
+  background-image: url('../img/card8.jpg');
+}
+
+.card9 {
+  background-image: url('../img/card9.jpg');
+
+}
+
+.card10 {
+  background-image: url('../img/card10.jpg');
+}
+
+.card11 {
+  background-image: url('../img/card11.jpg');
+}
+
+.card12 {
+  background-image: url('../img/card12.jpg');
+}
+
+.card13 {
+  background-image: url('../img/card13.jpg');
+}
+
+.card14 {
+  background-image: url('../img/card14.jpg');
+}
+
+/* .card15 {
+  background-image: url('../img/card15.jpg');
+}
+
+.card16 {
+  background-image: url('../img/card16.jpg');
+}
+
+.card17 {
+  background-image: url('../img/card17.jpg');
+}
+
+.card18 {
+  background-image: url('../img/card18.jpg');
+}
+
+.card19 {
+  background-image: url('../img/card19.jpg');
+}
+
+.card20 {
+  background-image: url('../img/card20.jpg');
+}
+
+.card21 {
+  background-image: url('../img/card21.jpg');
+}
+
+.card22 {
+  background-image: url('../img/card22.jpg');
+}
+
+.card23 {
+  background-image: url('../img/card23.jpg');
+}
+
+.card24 {
+  background-image: url('../img/card24.jpeg');
+}
+
+.card25 {
+  background-image: url('../img/card25.jpg');
+}
+
+.card26 {
+  background-image: url('../img/card26.jpg');
+}
+
+.card27 {
+  background-image: url('../img/card27.jpg');
+}
+
+.card28 {
+  background-image: url('../img/card28.jpg');
+}
+
+.card29 {
+  background-image: url('../img/card29.jpg');
+}
+
+.card30 {
+  background-image: url('../img/card30.jpg');
+}
+
+.card31 {
+  background-image: url('../img/card31.jpg');
+}
+
+.card32 {
+  background-image: url('../img/card32.jpg');
+}
+
+.card33 {
+  background-image: url('../img/card33.jpg');
+}
+
+.card34 {
+  background-image: url('../img/card34.jpg');
+}
+
+.card35 {
+  background-image: url('../img/card35.jpg');
+}
+
+.card36 {
+  background-image: url('../img/card36.jpg');
+}
+
+.card37 {
+  background-image: url('../img/card37.jpg');
+}
+
+.card38 {
+  background-image: url('../img/card38.jpg');
+} */
+
+.flip{
+  transform: rotateY(180deg);
+/* background-image: url('../img/back.jpg'); */
+background-image: url('../img/back.jpg');
+}
+
+h2 {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #fff;
+font-family: 'Playfair Display', serif;
+    position: relative;
+	text-transform: uppercase;
+	font-size: 15rem;
+	margin: 0;
+	font-weight: 400;
+}
+
+h2:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow:
+		-1px 0 1px #c6bb9f,
+		0 1px 1px #c6bb9f,
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+@media screen and (max-width: 1000px){
+	section{
+		width: 16.66vw;
+		height: 25vh;
+	}
+}
+
+@media screen and (max-width: 500px){
+	section{
+		width: 25vw;
+		height: 16.5vh;
+	}
+}
